@@ -1,0 +1,2 @@
+#!/bin/bash
+sort -t$'\t' -rn -k6 < web_server_logs.tsv | awk -F'\t' 'NR<12{print $4}'
