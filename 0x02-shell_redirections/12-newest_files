@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1tr | head -10
+ls -t | head -10 | xargs -I % sh -c 'echo %' > newest_files.sh
