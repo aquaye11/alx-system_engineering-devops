@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(sed -n '3p' iacta.txt)
+cat iacta.txt | head -3 | tail -1
