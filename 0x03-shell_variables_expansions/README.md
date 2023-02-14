@@ -11,3 +11,4 @@
 9-divide_and_rule prints the result of POWER divided by DIVIDE, followed by a new line where POWER and DIVIDE are environmental variables
 10-love_exponent_breath displays the result of BREATH to the power LOVE where BREATH and LOVE are environment variables followed by a new line
 11-binary_to_decimal converts a number from base 2 to base 10 and The number in base 2 is stored in the environment variable BINARY and scripts displaying the number in base 10, followed by a new line
+12-combinations that prints all possible combinations of two letters, except oo where Letters are lower cases, from a to z and One combination per line and The output should be alpha ordered, starting with aa and do not print oo and the script file contains maximum 64 characters
