@@ -13,11 +13,7 @@
 11-directories counts the number of directories and sub-directories in the current directory.
 12-newest_files creates a script that displays the 10 newest files in the current directory with one file per line and 
    sorted from the newest to the oldest
-13-unique 
-   creates a script that takes a list of words as input and prints only words that appear exactly once.
-   Input format: One line, one word
-   Output format: One line, one word
-   Words should be sorted
+13-unique creates a script that takes a list of words as input and prints only words that appear exactly once. Input formatis one line, one word the output format is one line, one word and the words should be sorted
 14-findthatword displays lines containing the pattern “root” from the file /etc/passwd
 15-countthatword displays the number of lines that contain the pattern “bin” in the file /etc/passwd
 16-whatsnext displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
