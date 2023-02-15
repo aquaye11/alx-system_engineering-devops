@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -t$'\t' -rn -k6 < web_server_logs.tsv | awk -F'\t' 'NR<12{print $4}'
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
