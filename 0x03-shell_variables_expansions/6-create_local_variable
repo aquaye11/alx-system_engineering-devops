@@ -1,2 +1,2 @@
 #!/bin/bash
-git config --local Name=BEST Value=School
+git config --local Name BEST Value School
