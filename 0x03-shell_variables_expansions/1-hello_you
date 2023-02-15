@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello $(whoami)"
+echo "echo 'Hello $(whoami)!'" > hello_user.sh
