@@ -1,6 +1,6 @@
 #!/bin/bash
 0-alias creates an alias where Name is ls and Value is rm *
-1-hello_you prints hello user, where user is the current Linux user
+1-hello_you prints hello root because root is my current user
 2-path makes Add /action to the PATH. /action becomes the last directory the shell looks into when looking for a program
 3-paths counts the number of directories in the PATH
 4-global_variables lists environment variables
