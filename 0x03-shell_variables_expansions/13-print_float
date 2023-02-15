@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${NUMBER:0:2}.${NUMBER:2:2}"'\n'
+printf "%0.2f\n" $NUM
