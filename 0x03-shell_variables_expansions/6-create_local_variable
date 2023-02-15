@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "BEST=School" >> create_variable.sh
+git config --local Name=BEST Value=School
