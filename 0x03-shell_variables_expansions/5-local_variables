@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "declare -p | grep -E '^(declare|export|function)'" > list_variables.sh
+set | grep -E '^(.*)='
