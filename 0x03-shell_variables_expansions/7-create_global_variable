@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "BEST=School" >> ~/.bash_profile
+export -g BEST=School
